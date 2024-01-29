@@ -1,0 +1,17 @@
+.Loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(./gif1.webp);
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(225, 108, 163, 0.132);
+}
+
+.loading{
+  font-size: 30px;
+  text-align: center;
+  font-family: Papyrus;
+}

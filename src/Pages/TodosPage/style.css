@@ -1,0 +1,94 @@
+.TodosPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: rgba(204, 61, 90, 0.253);
+}
+
+.todos-page {
+  padding: 10px;
+  text-align: center;
+  color: rgb(204, 61, 90);
+  text-shadow: 3px 5px 6px rgba(194, 117, 132, 0.621);
+  font-size: 25px;
+}
+
+.Todos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.TodoCard {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 3px 10px gray;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.TodoCard:hover{
+  transform: scale(1.05);
+  box-shadow: 0 3px 17px rgb(204, 61, 90);
+}
+
+.TodoCard h2:first-child {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: rgb(204, 61, 90);
+}
+
+.TodoCard p {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 15px;
+}
+
+.TodoCard h2:last-child {
+  font-size: 20px;
+  color: rgb(204, 61, 90);
+}
+
+.TodoCard h2:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0 3px 10px crimson;
+  padding: 5px;
+  margin-top: 30px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+.go-to-todo-page{
+  border: none;
+  box-shadow: 0 3px 10px rgb(153, 77, 77);
+  font-size: 20px;
+  background-color: rgb(204, 61, 90);
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.go-to-todo-page:hover{
+  transform: scale(1.1);
+  font-weight: 900;
+}
+
+.todo-link{
+  text-decoration: none;
+  color: #fff;
+}

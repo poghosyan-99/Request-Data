@@ -1,0 +1,15 @@
+@keyframes slideIn {
+  0% {
+    transform: translateY(-50px); 
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.ProductsPage, .QuotesPage, .UsersPage, .CartsPage, .CommentsPage, .PostsPage, .TodosPage {
+  animation: slideIn 1.8s ease-in-out forwards;
+}
+

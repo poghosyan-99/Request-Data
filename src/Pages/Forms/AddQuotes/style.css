@@ -1,0 +1,50 @@
+.AddQuote {
+    padding: 100px;
+}
+
+.AddQuote form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+.AddQuote input[type="text"], input[type="file"]{
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: default;
+    outline: none;
+    text-transform: capitalize;
+    background-color: #fff;
+}
+
+.AddQuote input[type="text"]:hover{
+    box-shadow: 0 3px 5px gray;
+}
+
+.AddQuote input[type="file"]:hover{
+    box-shadow: 0 3px 5px gray;
+}
+
+
+.AddQuote .add-quote {
+    height: 50px;
+    background-color: #f8c75ce0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    transition: background-color 0.3s, transform 0.3s ease;
+}
+  
+.AddQuote .add-quote:hover {
+    background-color: #d88d2b;
+    transform: scale(1.05);
+}

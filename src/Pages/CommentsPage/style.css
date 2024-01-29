@@ -1,0 +1,96 @@
+.CommentsPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    text-align: center;
+    padding: 20px;
+}
+
+.comments-page {
+    text-align: center;
+    font-size: 23px;
+    color: #333333bf;
+}
+
+.Comments {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.CommentCard {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 3px 10px gray;
+    text-align: center;
+    text-transform: capitalize;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.CommentCard:hover{
+    transform: scale(1.05);
+    box-shadow: 0 3px 17px #333;
+}
+
+.CommentCard h2 {
+    font-size: 22px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.CommentCard p {
+    font-size: 17px;
+    color: #666666;
+    margin-bottom: 15px;
+}
+
+.CommentCard p:last-child {
+    margin-bottom: 0;
+}
+
+
+.CommentCard h2:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #333;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 0 3px 10px gray;
+}
+
+
+
+.go-to-comment-page{
+    border: none;
+    box-shadow: 0 3px 10px gray;
+    font-size: 20px;
+    background-color: #565656ad;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .go-to-comment-page:hover{
+    transform: scale(1.1);
+    font-weight: 900;
+  }
+  
+  .comment-link{
+    text-decoration: none;
+    color: #fff;
+  }

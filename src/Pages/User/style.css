@@ -1,0 +1,27 @@
+.Userr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgba(209, 154, 82, 0.289);
+    font-family: cursive;
+}
+
+
+.back-user{
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 3px 10px gray;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: cursive;
+    transition: transform 0.5s, box-shadow 0.3s ease-in-out;
+}
+
+.back-user:hover{
+    transform: scale(1.1);
+    box-shadow: 0 3px 10px orange;
+}

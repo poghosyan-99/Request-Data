@@ -1,0 +1,85 @@
+.UsersPage{
+    padding: 30px;
+    background: rgba(255, 175, 94, 0.89);
+    background: linear-gradient(330deg, rgba(252, 177, 102, 0.554) 0%, rgba(252,212,83,0.09427521008403361) 26%, rgba(241,236,111,0.010241596638655426) 49%, rgba(238,223,65,0.13068977591036413) 71%, rgba(240,195,66,0.3211659663865546) 100%);
+    cursor: pointer;
+    font-family: cursive;
+}
+
+.users-page{
+    font-size: 30px;
+    text-align: center;
+    color: orange;
+    text-shadow: 3px 3px 10px rgba(255, 166, 0, 0.689);
+}
+
+
+.Users{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.UserCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 260px;
+    height: 450px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 3px 17px gray;
+    background-color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.UserCard:hover{
+    transform: scale(1.05);
+    box-shadow: 0 3px 17px orange;
+}
+
+.UserCard img{
+    width: 200px;
+    height: 230px;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px gray;
+    margin-top: 50px;
+}
+
+.UserCard h2{
+    font-size: 22px;
+}
+
+.UserCard span{
+    color: rgb(232, 131, 54);
+}
+
+
+.go-to-user-page{
+    border-radius: 10px;
+    box-shadow: 0 3px 10px gray;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #fbbf79c3;
+    border: none;
+    transition: transform 0.5s ease-in-out;
+}
+
+.user-link{
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+}
+
+
+.go-to-user-page:hover{
+    transform: rotate(10deg);
+    font-size: 22px;
+    box-shadow: 0 3px 12px rgb(252, 164, 0);
+    padding: 15px;
+    font-weight: 900;
+}

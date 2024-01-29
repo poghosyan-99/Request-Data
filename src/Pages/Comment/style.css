@@ -1,0 +1,25 @@
+.commentt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgba(172, 170, 171, 0.444);
+}
+
+.back-comment{
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px gray;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px;
+    width: 100px;
+    transition: transform 0.5s, box-shadow 0.3s ease-in-out;
+}
+
+.back-comment:hover{
+    transform: scale(1.1);
+    box-shadow: 0 3px 10px #333;
+}
